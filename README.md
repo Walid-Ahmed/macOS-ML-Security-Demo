@@ -350,4 +350,4 @@ MIT License - see LICENSE file for details.
 **Demo by Walid Ahmed** - Building the future of AI-powered security 🚀
 ```
 
-**Copy this entire code block and paste it into your README.md file!** 📋✨
+
