@@ -1,6 +1,3 @@
-Here's the complete README.md in a single code block for easy copying:
-
-```markdown
 # 🔒 macOS ML Security Demo
 
 [![Swift](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://swift.org)
