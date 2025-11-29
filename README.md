@@ -13,6 +13,23 @@ A complete AI-powered macOS security system demonstration by Walid Ahmed. Featur
 - **⚡ macOS App**: Swift command-line tool for real-time monitoring
 - **🛡️ Security Features**: 10-dimensional process analysis with risk scoring
 
+
+
+## 🎯 Security Features Analyzed
+
+1. **Code Signature** (0=unsigned, 1=Apple signed)
+2. **File Entropy** (0=normal, 1=packed/encrypted)  
+3. **Location Risk** (0=system, 1=downloads/temp)
+4. **Parent Trust** (0=untrusted, 1=trusted parent)
+5. **Network Activity** (0=none, 1=high)
+6. **File Changes** (0=none, 1=many)
+7. **Sensitive Access** (0=no, 1=yes)
+8. **Process Depth** (0=shallow, 1=deep tree)
+9. **Unusual Ports** (0=no, 1=yes)
+10. **Behavior Volatility** (0=stable, 1=volatile)
+
+---
+
 ## 📋 Prerequisites
 
 - macOS 13.0+
@@ -295,20 +312,7 @@ xcodebuild -project MacSecurityDaemon.xcodeproj -scheme MacSecurityDaemon -confi
 
 ---
 
-## 🎯 Security Features Analyzed
 
-1. **Code Signature** (0=unsigned, 1=Apple signed)
-2. **File Entropy** (0=normal, 1=packed/encrypted)  
-3. **Location Risk** (0=system, 1=downloads/temp)
-4. **Parent Trust** (0=untrusted, 1=trusted parent)
-5. **Network Activity** (0=none, 1=high)
-6. **File Changes** (0=none, 1=many)
-7. **Sensitive Access** (0=no, 1=yes)
-8. **Process Depth** (0=shallow, 1=deep tree)
-9. **Unusual Ports** (0=no, 1=yes)
-10. **Behavior Volatility** (0=stable, 1=volatile)
-
----
 
 ## 🔧 Troubleshooting
 
