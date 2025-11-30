@@ -349,9 +349,5 @@ macOS-ML-Security-Demo/
 
 MIT License - see LICENSE file for details.
 
----
-
-**Demo by Walid Ahmed** - Building the future of AI-powered security 🚀
-```
 
 
